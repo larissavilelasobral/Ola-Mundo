@@ -1,0 +1,45 @@
+@charset "UTF-8"; /* */
+
+body {
+    margin: 0;  /* ZERANDO A TAG BODY */
+}
+header {
+    background-color: #bb1d11;
+    height: 140px;
+
+}
+.imglogo {
+    margin-top: 3px;
+    margin-left: 20px;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -124px;
+    margin-left: 170px;
+    font-size: 5.5em;
+    color:white;
+}
+.topnav {
+    
+    
+}
+.topnav a {
+    float: right;
+
+    color: rgb(255, 255, 255);
+    padding: 55px 15px;
+    text-decoration: none;
+    font-size: 25px;
+
+}
+footer {
+    margin: auto;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    background-color: #4d4d4d;
+}
+nav ul li a {
+    color: #d3cfcf;
+    text
+}
