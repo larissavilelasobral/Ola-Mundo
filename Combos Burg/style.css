@@ -2,7 +2,9 @@
 
 body {
     margin: 0;  /* ZERANDO A TAG BODY */
+    background-color: yellow;
 }
+
 header {
     background-color: #bb1d11;
     height: 140px;
@@ -19,27 +21,77 @@ h1 {
     font-size: 5.5em;
     color:white;
 }
+/* Add a black background color to the top navigation */
 .topnav {
-    
-    
+    background-color: #bb1d11 ;
+    font-family: cursive;
+    font-size: 1.3em;
 }
-.topnav a {
-    float: right;
-
-    color: rgb(255, 255, 255);
-    padding: 55px 15px;
-    text-decoration: none;
-    font-size: 25px;
-
+/* Style the links inside the navigation bar */
+.topnav a { /* classe topnav tag a */
+    float: right; /* topo-direita */
+    color: #ffffff;
+    padding: 55px 30px 50px 10px; /* ?? */
+    text-decoration: none /* link vem com anderline predefinido então estamos tirando essa decoração dos links */
 }
-footer {
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: rgb(42, 130, 165);
+    color: black;
+}
+/* Add a color to the active/current link 
+.topnav a.active {
+    background-color: brown;
+    color: wheat;
+} */
+
+/*Fundo */
+main {
+    height: auto;
+    width: 935px;
+    text-align: center;
     margin: auto;
-    width: 100%;
-    bottom: 0;
-    position: fixed;
-    background-color: #4d4d4d;
+    border: 2px solid #f70606;
+
 }
-nav ul li a {
-    color: #d3cfcf;
-    text
+h2 {
+    margin: 0%;
+}
+div.catalogo {
+   margin: 15px;
+}
+
+div.box_combo_primeiro {
+    float: left;
+    background-color: teal;
+    max-width: 330px;
+    padding: 12px;
+    margin-top: 10px;
+    border: 2px solid #f70606;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    min-height: 275px;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+div.box_combo_segundo {
+    float: left;
+    background-color: teal;
+    max-width: 330px;
+    padding: 12px;
+    margin-top: 10px;
+    border: 2px solid #f70606;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    min-height: 275px;
+    border-radius: 10px;
+    margin-left: 0px;
+}
+footer{
+    width: 100%;
+    background-color: rgb(110, 110, 109);
+    height: 330px;
+    margin-top: 324px;
+
+
 }
