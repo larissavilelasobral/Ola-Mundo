@@ -1,0 +1,169 @@
+@charset "UTF-8"; /* */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+@import url('https://db.onlinewebfonts.com/c/0704722187831ae1fb775341c9842851?family=Cooper+Hewitt');
+
+
+html {
+    background-color: #403436;
+}
+
+body {
+    margin: 0;  /* ZERANDO A TAG BODY */
+    background-color: #fffffe; /*COR DE FUNDO DO SITE*/
+}
+
+header {
+    background-color: #d91e0d; /* cor de fundo do menu */
+    height: 140px;
+
+}
+.imglogo {
+    margin-top: -3px;
+    margin-left: 10px;
+    width: 155px;
+}
+h1 {
+    font-family: 'Cooper Hewitt', Times, serif;
+    margin-top: -142px;
+    margin-left: 168px;
+    font-size: 5.5em;
+    color:white;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #bb1d11 ;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 1.4em;
+    margin-top: 0px;
+    padding: 5px 5px ;
+    
+
+}
+/* Style the links inside the navigation bar */
+.topnav a { /* classe topnav tag a */
+    float: right; /* topo-direita */
+    margin-top: 46px; /* altura do menu */
+    margin-right: 20px;
+    color: #ffffff; /* cor do menu */
+    padding: 10px 10px 10px 10px; /* sombra de seleção do menu */
+    text-decoration: none /* link vem com anderline predefinido então estamos tirando essa decoração dos links */
+    
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #b1180a;
+    color: #f0a500;
+    border-radius: 10px;
+    
+}
+/* Add a color to the active/current link 
+.topnav a.active {
+    background-color: brown;
+    color: wheat;
+} */
+
+/*Fundo */
+main {
+    height: auto;
+    width: 950px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid #acacac31;
+    background-color: rgba(255, 0, 0, 0); /*Cor de fundo do conteudo principal*/
+
+}
+img.grande {
+    float: left;
+    margin-left: -6px;
+}
+h2 {
+    margin: 0%;
+    border-top: 1px;
+}
+div.catalogo {
+   margin: 15px;
+}
+ /*
+div.box_combo_primeiro {
+    float: left;
+    background-color: teal;
+    max-width: 330px;
+    padding: 12px;
+    margin-top: 10px;
+    border: 2px solid #f70606;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    min-height: 275px;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+div.box_combo_segundo {
+    float: left;
+    background-color: teal;
+    max-width: 330px;
+    padding: 12px;
+    margin-top: 10px;
+    border: 2px solid #f70606;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    min-height: 275px;
+    border-radius: 10px;
+    margin-left: 0px;
+}
+*/
+footer{
+    width: 100%;
+    background-color: #F29F05; /* cor de fundo footer */
+    height: 250px;
+}
+div.about_us {
+    position: relative;
+    text-align: left;
+    width: 300px;
+    margin-left: 73px;
+    padding-top: 50px;
+    color: #421916;
+}
+p.about {
+    margin-top: 5px;
+}
+div.endereco {
+    float: left;
+    position: relative;
+    text-align: left;
+    width: 300px;
+    height: 20px;
+    color: #421916;
+    padding-top: 50px;
+    margin-left: 438px;
+    margin-top: 43px;
+    bottom: 276px;
+}
+div.redes_sociais {
+    margin-left: 73px;
+}
+
+div.lado01 {
+    float: right;
+    margin-right: 15px;
+}
+div.lado02 {
+    float: right;
+    margin-right: 15px;
+    margin-top: 8px;
+}
+img.wpp {
+    border-radius: 40px;
+    box-shadow:2px 3px #2b2626a9 ;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+span.copyright {
+    margin: 66px 1px;
+    padding: 1px 1px;
+}

@@ -89,9 +89,29 @@ div.box_combo_segundo {
 }
 footer{
     width: 100%;
-    background-color: rgb(110, 110, 109);
+    background-color: #dbdbdb;
     height: 330px;
     margin-top: 324px;
+    color: #848484;
 
 
+}
+img.wpp {
+    width: 919px;
+    height: 188px;
+    margin: 5px 5px;
+    border-radius: 40px;
+    box-shadow:2px 3px #2b2626a9 ;
+
+}
+div.about_us {
+    text-align: left;
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: #4a4a4a;
+
+}
+h2 {
+    
 }

@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+@import url('https://db.onlinewebfonts.com/c/0704722187831ae1fb775341c9842851?family=Cooper+Hewitt'); /* Fonte da Combos Burg */
+
+/*Zerando tudo*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+/* header geral */
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #000000;
+    display: block;
+}
+/* header de dentro */
+.inner_header {
+    background-color: rgba(255, 0, 0, 0);
+    width: 800px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+/* Área da logo */
+.logo_conteiner {
+    height: 100%;
+    display: table;
+    float: left;
+}
+/* Titulo h1 do site */
+.logo_conteiner h1 {
+    color: #ffffff;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Cooper Hewitt', Times, serif;
+    font-size: 3.9em;
+}
+/* Área de navegação*/
+.navigation {
+    float: right;
+    height: 100%;
+}
+/* links de navegação */
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+/*tirando padding do ultimo elemento da nav. para fica alinhado com a header de dentro*/
+.navigation a:last-child{
+    padding-right: 0;
+}
+/* Lista de Navegação*/
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
