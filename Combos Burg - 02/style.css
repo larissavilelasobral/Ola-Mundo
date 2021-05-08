@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
-@import url('https://db.onlinewebfonts.com/c/0704722187831ae1fb775341c9842851?family=Cooper+Hewitt'); /* Fonte da Combos Burg */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+/* Fonte do Nav e H3 */
+
+@import url('https://db.onlinewebfonts.com/c/0704722187831ae1fb775341c9842851?family=Cooper+Hewitt'); 
+/* Fonte da Combos Burg */
 
 /*Zerando tudo*/
 * {
@@ -8,27 +12,34 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    box-sizing: border-box;
+}
+html { /*a cada 1em será considerado 10px*/
+    font-size: 62.5;
 }
 /* header geral */
 header {
     width: 100%;
-    height: 80px;
-    background-color: #000000;
-    display: block;
+    height: 140px;
+    background-color: #A60708;
+    display: inline-block;
 }
 /* header de dentro */
 .inner_header {
-    background-color: rgba(255, 0, 0, 0);
-    width: 800px;
-    height: 100%;
-    display: block;
-    margin: 0 auto;
+    width: 90%;
+    max-width: 544px;
+    display: inline;
 }
 /* Área da logo */
 .logo_conteiner {
     height: 100%;
     display: table;
     float: left;
+}
+/* img logo */
+.img_logo_header {
+    float: left;
+    padding: 2px 15px;
 }
 /* Titulo h1 do site */
 .logo_conteiner h1 {
@@ -37,7 +48,8 @@ header {
     display: table-cell;
     vertical-align: middle;
     font-family: 'Cooper Hewitt', Times, serif;
-    font-size: 3.9em;
+    font-size: 5.5em;
+    text-shadow: 1px 1px 4px rgba(7, 7, 7, 0.781);
 }
 /* Área de navegação*/
 .navigation {
@@ -49,18 +61,143 @@ header {
     height: 100%;
     display: table;
     float: left;
-    padding: 0px 20px;
+    padding: 0px 11px;
 }
-/*tirando padding do ultimo elemento da nav. para fica alinhado com a header de dentro*/
+.navigation a li:hover {
+    background-color: #bb2011;
+    color: #f0a500;
+    border-radius: 10px;
+    padding-top: 3px;
+}
+/*tirando padding do ultimo elemento da nav. para fica alinhado com a header de dentro
+
 .navigation a:last-child{
-    padding-right: 0;
-}
+     padding-right: 0; 
+}*/
+
 /* Lista de Navegação*/
 .navigation a li{
     display: table-cell;
     vertical-align: middle;
     height: 100%;
     color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-family: 'Roboto Condensed', Arial,sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-shadow: 1px 1px 1px black;
+    padding-left: 3px;
+    padding-right: 3px;
 }
+body{
+    font-size: 1em;
+}
+/*conteiner do conteudo principal*/
+main{
+    height: auto;
+    width: 100%;
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* img catalogo*/
+.catalogo_grande {
+    float: left;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+img.grande {
+    border-radius: 10px;
+}
+/* img lado 01*/
+.lado01 {
+    float: right;
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+}
+/* img lado 02*/
+.lado02 {
+    float: right;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+}
+/* base img*/
+.base_img {
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+/* footer*/
+footer{
+    width: 100%;
+    height: 100%;
+    max-height: 400px;
+    background-color: #f0a500;
+}
+.example {
+    color: #FFF; /*cor do texto*/
+    text-align: center;
+}
+.example-item { /*largura e altura dos blocos*/
+    width: 25%;
+    height: 100%;
+    max-height: 460px;
+    padding: 10px;
+}
+.example-item h3 { /*estilo dos h3*/
+    color: #fdfdfd;
+    margin-bottom: 3px;
+    font-family: 'Roboto Condensed', Arial,sans-serif;
+    font-size: 1em;
+    letter-spacing: 0.5px;
+    line-height: 31px;
+    font-weight: 700;
+}
+.example-item_first {
+    float: left;
+    margin-left: 10%;
+    padding-top: 22px;
+ }
+ .example-item_first h3{
+    font-size: 1.5em;
+ }
+.example-item_second {
+    float: right;
+    font-size: 1.5em;
+    margin-right: 10%;
+    padding-top: 22px;
+}
+.example-item_third {
+     margin: auto;
+     padding-top: 20px;
+ }
+ .footer_bottom {
+     background-color:#818181;
+     width: 100%;
+     height: 50px;
+     font-weight: light; 
+     font-size: 0.9em; 
+     line-height: 24px; 
+     color: #bdbdbd;
+     text-align: center;
+     vertical-align: middle;
+     padding-top: 13px;
+ }
+ .redes{
+    font-size:40px;
+    color:#ffffff;
+    padding-right: 10px;
+  }
+ .direitos {
+    color: #ffffff;
+ }
+ .direitos:hover{
+     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.445);
+ }

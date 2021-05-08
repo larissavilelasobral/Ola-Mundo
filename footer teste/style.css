@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+ul, ol,li {
+    list-style: none;
+}
+/*ZERADO*/  
+
+.example {
+    color: #FFF; /*cor do texto geral*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.example-item { /*largura e altura dos blocos*/
+    width: 25%;
+    height: 150px;      
+}
+.example-item_first {
+    background-color: #FAA116;
+    float: left;
+    border: 10px;
+    
+    
+ }
+ .example-item_first h3{
+     font-family: Arial, Helvetica, sans-serif;
+     color: blue;
+     margin-bottom: 5px;
+ }
+.example-item_second {
+    background-color: #57C7C3;
+    float: right;
+}
+.example-item_third {
+     background-color: #3B97D3;
+     margin: auto;
+ }
